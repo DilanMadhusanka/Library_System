@@ -1,0 +1,98 @@
+*{margin: 0; padding: 0;}
+
+.full{
+	width: 1000px;
+	margin: 0 auto;
+}
+
+.header {
+	font-size: 35px;
+	color: #0849AF;
+	margin-bottom: 20px;
+}
+
+.header h1 {
+	padding-left: 20px;
+	font-weight: normal;
+	font-family: cursive;
+}
+
+.descript {
+	background-color: lightblue;
+	padding: 15px;
+	border-radius: 5px;
+	font-size: 30px;
+	color: purple;
+	border: 4px solid blue;
+}
+
+.first-table form table {
+	margin-top: 50px;
+	margin-left: 100px;
+}
+
+.first-table form table tr th {
+	background: gray;
+	height: 40px;
+	font-size: 25px;
+	font-family: Arial;
+}
+
+.first-table form table tr td {
+	background: lightgray;
+}
+
+.first-table form table tr td li {
+	margin-top: 10px;
+	margin-left: 20px;
+}
+
+.second-table form table {
+	margin-top: 50px;
+	margin-left: 100px;
+}
+
+.second-table form table tr th {
+	background: gray;
+	height: 40px;
+	font-size: 25px;
+	font-family: Arial;
+}
+
+.second-table form table tr td {
+	background: lightgray;
+}
+
+.second-table form table tr td li {
+	margin-top: 10px;
+	margin-left: 20px;
+}
+
+.third-table form table {
+	margin-top: 50px;
+	margin-left: 100px;
+	margin-bottom: 40px;
+}
+
+.third-table form table tr th {
+	background: gray;
+	height: 40px;
+	font-size: 25px;
+	font-family: Arial;
+}
+
+.third-table form table tr td {
+	background: lightgray;
+}
+
+.third-table form table tr td li {
+	margin-top: 10px;
+	margin-left: 20px;
+}
+
+footer {
+	text-align: center;
+	background-color: maroon;
+	padding: 10px;
+	color: white;
+}

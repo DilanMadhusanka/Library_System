@@ -1,0 +1,254 @@
+* {margin: 0; padding: 0;}
+
+a {text-decoration: none;}
+
+.clearfix {overflow: auto;}
+
+.main {
+	width: 1000px;
+	margin: 0 auto;
+}
+
+.top-bar {
+	width: 1000px;
+	background: maroon;
+}
+
+.top-bar-list {
+	float: left;
+	margin: 15px;
+}
+
+.top-bar-list ul {
+	list-style-type: none;
+}
+
+.top-bar-list ul li {
+	display: inline-block;
+	padding: 0px 10px;
+	border-right: 1px solid white;
+}
+
+.top-bar-list ul li:last-child {
+	border: none;
+}
+
+.top-bar-list ul li a {
+	color: white;
+}
+
+.top-bar-list ul li a:hover {
+	color: orange;
+	font-size: 17px;
+}
+
+.site-search {
+	float: right;
+	margin-top: 10px;
+	margin-right: 10px; 
+	background: white;
+	border-radius: 10px;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+.site-search input {
+	border: none;
+}
+
+.site-search button {
+	/*border: none;*/
+}
+
+.logo {
+
+}
+
+.logo img {
+	float: left;
+	margin: 20px 10px 10px 40px; 
+}
+
+.library-name {
+	float: left;
+	margin: 80px 20px 20px 50px;
+}
+
+.library-name h1 {
+	font-size: 70px;
+	font-style: italic;
+}
+
+.library-name h3 {
+	margin-left: 10px;
+	font-family: Arial;
+}
+
+nav {
+	background-color: #555;
+	border-radius: 10px;
+}
+
+nav ul {
+	text-align: center;
+}
+
+nav ul li{
+	text-transform: uppercase;
+	list-style-type: none;
+	display: inline-block;
+	margin: 15px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+nav ul li a {
+	color: white;
+	padding-right: 60px;
+}
+
+nav ul li a:hover {
+	color: #f33208 ;
+}
+
+.container {
+	padding-top: 20px;
+	margin-top: 10px;
+	border-radius: 5px;
+	background-image: url("../Pictures/library.jpg");
+	background-attachment: fixed;
+	background-size: 100% 100%;
+	height: 400px;
+	width:1000px;
+}
+
+.intro {
+	padding-top: 50px;
+	text-align: center;
+	background: lightblue;
+	padding: 10px;
+	border-radius: 5px;
+}
+
+.intro h1 {
+	font-size: 40px;
+	font-family: serif;
+	color: purple;
+	font-weight: 100;
+}
+
+.intro p {
+	margin-top: 20px;
+	font-size: 20px;
+}
+
+.search-book {
+	margin-top: 20px;
+	margin-left: 20px;
+	padding-right: 20px;
+	padding-left: 20px;
+	padding-bottom: 50px;
+	background: lightgray;
+	float: left;
+}
+
+.search-book h3 {
+	margin-bottom: 10px;
+	padding-top: 20px;
+	font-size: 25px;
+	margin-left: 50px;
+	font-weight: normal;
+	font-style: italic;
+	color: white;
+}
+
+.search-book form input {
+	width: 400px;
+	height: 40px;
+}
+
+.search-book form button {
+	font-size: 20px; 
+	height: 50px;
+}
+
+.famous {
+	float: left;
+	padding-left: 50px;
+	margin-top: 20px;
+	background: yellow; 
+	padding-bottom: 23px;
+	padding-right: 40px;
+	margin-left: 10px;
+}
+
+.famous h3 {
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+.famous ul li {
+	list-style-type: decimal;
+	color: blue;
+}
+
+.famous ul li a {
+	color: blue;
+}
+
+.home-col {
+	width: 313px;
+	float: left;
+	margin-top: 10px;
+	margin-right: 9px;
+	margin-left: 10px;
+	background: gray;
+	border-radius: 15px;
+}
+
+.home-col h4 {
+	text-align: center;
+	font-family: Arial;
+	font-size: 30px;
+	padding-top: 10px;
+	font-weight: bold;
+	color: brown;
+}
+
+.home-col ul {
+	padding: 20px 5px 20px 20px;
+}
+
+.home-col ul li {
+	color: black;
+	padding-bottom: 5px;
+}
+.social-media {
+	text-align: center;
+	margin-top: 350px;
+	/*background-color: pink;
+	border-radius: 5px; */
+}
+
+.social-media h4 {
+	margin-top: 400px;
+	font-size: 40px;
+	text-align: center;
+}
+
+.social-media ul li {
+	display: inline-block;
+	list-style-type: none;
+	padding: 30px 50px 20px 10px;
+}
+
+.social-media ul li a img{
+	width: 100px;
+}
+
+footer {
+	text-align: center;
+	background-color: maroon;
+	padding: 10px;
+	color: white;
+}
